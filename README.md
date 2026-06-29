@@ -137,6 +137,17 @@ Fine-tuning regression: **-0.300** — the fine-tuned model performed substantia
 
 ---
 
+### Per-Class Metrics (Baseline — Groq llama-3.3-70b-versatile)
+
+| Label | Precision | Recall | F1 | Support |
+|-------|-----------|--------|----|---------|
+| analysis | 1.00 | 0.80 | 0.89 | 10 |
+| hot_take | 0.75 | 0.90 | 0.82 | 10 |
+| reaction | 0.90 | 0.90 | 0.90 | 10 |
+| **macro avg** | 0.88 | 0.87 | 0.87 | 30 |
+
+---
+
 ### Per-Class Metrics (Fine-Tuned Model)
 
 | Label | Precision | Recall | F1 | Support |
